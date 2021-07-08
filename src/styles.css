@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player:first-child {
+  margin-right: 2rem;
+}
+
+.score {
+  font-size: 1.5rem;
+}
